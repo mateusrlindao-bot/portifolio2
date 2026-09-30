@@ -1,8 +1,33 @@
 body{
-    background-color: aquamarine;
-    width: 2000px;
+    background-color: rgba(29, 39, 36, 0.664);
     text-align: center;
 }
+main{
+    background-color: rgba(0, 0, 0, 0);
+}
+    
+    a p{
+    
+    background-color: rgb(127, 150, 255);
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 0.5s all;
+
+}
 h1{
-    color: black;
+    background-color: aliceblue;
+}
+
+a p:hover{
+    background-color: antiquewhite;
+    transform: scale(1,1);
+    transform: rotate(15deg);
+    border-style: solid;
+}
+a p:active{
+    border-style: solid;
 }
