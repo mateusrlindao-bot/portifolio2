@@ -7,17 +7,16 @@ function estacao(){
     console.log(mes);
 
     if(mes == 'DEZEMBRO' || mes == 'JANEIRO' || mes == 'FEVEREIRO'){
-        alert("A estação é VERÃO")
+        mostrar.innerHTML =`<p>A estação é VERÃO</p>`
     }
     if(mes == 'MARÇO' || mes == 'ABRIL' || mes == 'MAIO'){
-        alert("A estação é OUTONO")
+        mostrar.innerHTML =`<p>A estação é OUTONO</p>`
     }
-        
     if(mes == 'JUNHO' || mes == 'JULHO' || mes == 'AGOSTO'){
-        alert("A estação é INVERNO")
+        mostrar.innerHTML =`<p>A estação é INVERNO</p>`
     }
     if(mes == 'SETEMBRO' || mes == 'OUTUBRO' || mes == 'NOVEMBRO'){
-        alert("A estação é PRIMAVERA")
+        mostrar.innerHTML =`<p>A estação é PRIMAVERA</p>`
     }
 
     // O USUÁRIO INFORMA O MẼS POR EXTENSO E O SISTEMA INFORMA A ESTAÇÃO DAQUELE MÊS.

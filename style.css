@@ -31,3 +31,8 @@ a p:hover{
 a p:active{
     border-style: solid;
 }
+img{
+    width: 100px;
+    text-align: center;
+
+    }
