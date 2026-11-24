@@ -1,9 +1,11 @@
 body{
+    font-family: cursive;
+    font-size: large;
     background-color: rgba(29, 39, 36, 0.664);
     text-align: center;
 }
 main{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(131, 131, 131);
 }
     
     a p{
@@ -19,11 +21,11 @@ main{
 
 }
 h1{
-    background-color: aliceblue;
+    background-color: rgb(0, 88, 165);
 }
 
 a p:hover{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     transform: scale(1,1);
     transform: rotate(15deg);
     border-style: solid;
@@ -32,7 +34,7 @@ a p:active{
     border-style: solid;
 }
 img{
-    width: 100px;
+    width: 300px;
     text-align: center;
 
     }
